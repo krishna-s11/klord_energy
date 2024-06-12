@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    padding: 10px 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.3); */
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.nav_logo h1{
+    font-size: 40px;
+}
+.govt_logo_box{
+    display: flex;
+}
+.govt_logo_box img{
+    width: 100px;
+}
+.govt_logo_box p{
+    width: 160px;
+}

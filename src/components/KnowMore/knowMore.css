@@ -1,0 +1,44 @@
+.knowMore{
+    width: 400px;
+    height: 289px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.knowMore img{
+    width: 100%;
+    height: 289px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.knowMore h2{
+    position: relative;
+    z-index: 1;
+    color: #215191;
+    padding: 30px;
+    margin-top: 20px;
+}
+.knowMore_action{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.knowMore button{
+    background-color: rgb(191, 52, 52);
+    color: #fff;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.knowMore button:last-child{
+    margin-right: 0;
+}

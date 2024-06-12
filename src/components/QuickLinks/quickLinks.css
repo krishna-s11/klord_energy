@@ -1,0 +1,26 @@
+.quick_links{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background-color: #fff;
+    margin-right: 30px;
+}
+.quick_links h3{
+    color: #fca311
+}
+.quick_links button{
+    background-color: #215191;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 12px;
+    text-align: left;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
